@@ -57,9 +57,6 @@ require PATH_CONFIG_IDC . '/inc_config.php';
 // 加载库函数
 require PATH_LIBRARY . '/lib_func.php';
 
-// 加载 composer 第三方库
-require PATH_ROOT . '/vendor/autoload.php';
-
 // 注册自动加载目录
 $loader = new Loader();
 $loader->registerNamespaces([
@@ -92,5 +89,4 @@ if (DEBUG_MODE)
 else
 {
     ini_set('display_errors', 'Off');
-    ErrorHandler::init();
 }

@@ -2,7 +2,7 @@
 {{ flashSession.output() }}
 
 <ol class="breadcrumb">
-    <li><a href="/">首页 </a></li>
+    <li class="active">首页</li>
 </ol>
 
 <table id="trans-table" class="table table-bordered table-hover">

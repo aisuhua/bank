@@ -1,6 +1,0 @@
-{
-    "require": {
-        "yzalis/supervisor": "^1.1",
-        "dragonmantank/cron-expression": "^2.3"
-    }
-}
