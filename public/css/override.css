@@ -1,0 +1,41 @@
+body {
+    padding-top: 20px;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+.page-header {
+    display: none;
+}
+.pnotify-word-break {
+    word-break: break-all
+}
+#scrollUp {
+    background-image: url("../plugins/scrollup/top.png");
+    bottom: 20px;
+    right: 20px;
+    width: 38px;    /* Width of image */
+    height: 38px;   /* Height of image */
+}
+.table-form tbody tr th {
+    width: 15%;
+    vertical-align: middle;
+}
+samp,pre {
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+samp#log {
+    padding-bottom: 20px;
+}
+
+tr.anchor-out {
+    background-color: transparent;
+    transition: background-color 1s;
+}
+
+tr.anchor-hover {
+    background-color: #fcf8e3;
+    transition: background-color 1s;
+}
