@@ -5,6 +5,12 @@
     <li class="active">首页</li>
 </ol>
 
+<div class="panel panel-default">
+    <div class="panel-body">
+        只支持 客户号 搜索
+    </div>
+</div>
+
 <table id="trans-table" class="table table-bordered table-hover">
     <thead>
     <tr>
